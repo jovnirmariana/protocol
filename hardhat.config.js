@@ -8,3 +8,5 @@ require('dotenv').config()
 const GWEI = 1000000000
 
 /**
+ * @type import('hardhat/config').HardhatUserConfig
+ */
