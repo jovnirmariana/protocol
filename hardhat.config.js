@@ -14,3 +14,5 @@ const config = {
   defaultNetwork: 'hardhat',
 networks: {
     hardhat: {
+   blockGasLimit: 19000000,
+      chainId: 31338
