@@ -16,3 +16,5 @@ networks: {
     hardhat: {
    blockGasLimit: 19000000,
       chainId: 31338
+ },
+    local: {
