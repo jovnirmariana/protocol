@@ -27,3 +27,6 @@ networks: {
       url: 'http://localhost:7547',
       gasPrice: 3 * GWEI,
  blockGasLimit: 20000000, // 20M
+     explorer: 'https://bscscan.com'
+    },
+    basegoerli: {
