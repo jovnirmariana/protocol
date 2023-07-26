@@ -30,3 +30,4 @@ networks: {
      explorer: 'https://bscscan.com'
     },
     basegoerli: {
+ url: 'https://goerli.base.org',
