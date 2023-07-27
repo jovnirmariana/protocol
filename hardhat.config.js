@@ -31,3 +31,5 @@ networks: {
     },
     basegoerli: {
  url: 'https://goerli.base.org',
+ chainId: 84531,
+      accounts: [process.env.PRIVATE_KEY],
