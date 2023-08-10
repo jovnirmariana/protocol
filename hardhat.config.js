@@ -56,3 +56,5 @@ chainId: 43113,
       accounts: [process.env.PRIVATE_KEY],
   gasPrice: 2 * GWEI,
       explorer: 'https://mumbai.polygonscan.com/'
+  },
+    ethereum: {
