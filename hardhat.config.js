@@ -58,3 +58,5 @@ chainId: 43113,
       explorer: 'https://mumbai.polygonscan.com/'
   },
     ethereum: {
+   blockGasLimit: 19000000, // 19M
+      url: process.env.ETHEREUM_RPC_URL,
