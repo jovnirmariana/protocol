@@ -60,3 +60,6 @@ chainId: 43113,
     ethereum: {
    blockGasLimit: 19000000, // 19M
       url: process.env.ETHEREUM_RPC_URL,
+  chainId: 1,
+      accounts: [process.env.PRIVATE_KEY],
+      gasPrice: 80 * GWEI,
