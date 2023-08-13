@@ -63,3 +63,5 @@ chainId: 43113,
   chainId: 1,
       accounts: [process.env.PRIVATE_KEY],
       gasPrice: 80 * GWEI,
+  explorer: 'https://etherscan.io'
+    },
