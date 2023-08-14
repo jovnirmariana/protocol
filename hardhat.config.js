@@ -65,3 +65,5 @@ chainId: 43113,
       gasPrice: 80 * GWEI,
   explorer: 'https://etherscan.io'
     },
+  arbitrum: {
+      url: process.env.ARBITRUM_RPC_URL,
