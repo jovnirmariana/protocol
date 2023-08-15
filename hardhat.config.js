@@ -67,3 +67,5 @@ chainId: 43113,
     },
   arbitrum: {
       url: process.env.ARBITRUM_RPC_URL,
+  chainId: 42161,
+      accounts: [process.env.PRIVATE_KEY],
