@@ -69,3 +69,6 @@ chainId: 43113,
       url: process.env.ARBITRUM_RPC_URL,
   chainId: 42161,
       accounts: [process.env.PRIVATE_KEY],
+ gasPrice: 1 * GWEI,
+      explorer: 'https://goerli.basescan.org'
+    },
