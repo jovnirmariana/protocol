@@ -77,3 +77,5 @@ chainId: 43113,
       chainId: 43113,
       accounts: [process.env.PRIVATE_KEY],
  gasPrice: 1 * GWEI,
+ explorer: 'https://goerli.basescan.org'
+    },
