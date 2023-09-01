@@ -88,3 +88,4 @@ gasPrice: 1 * GWEI,
     },
  fuji: {
       url: 'https://ava-testnet.public.blastapi.io/ext/bc/C/rpc',
+  chainId: 43113,
