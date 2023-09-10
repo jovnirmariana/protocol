@@ -94,3 +94,4 @@ gasPrice: 1 * GWEI,
  explorer: 'https://testnet.snowtrace.io'
     },
     bscTestnet: {
+url: 'https://data-seed-prebsc-1-s1.binance.org:8545',
