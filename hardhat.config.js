@@ -101,3 +101,5 @@ url: 'https://data-seed-prebsc-1-s1.binance.org:8545',
  explorer: 'https://testnet.bscscan.com/'
     },
     polygonMumbai: {
+   url: 'https://rpc-mumbai.maticvigil.com	',
+      chainId: 80001,
