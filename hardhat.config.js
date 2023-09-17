@@ -108,3 +108,5 @@ url: 'https://data-seed-prebsc-1-s1.binance.org:8545',
  explorer: 'https://mumbai.polygonscan.com/'
     },
     ethereum: {
+   blockGasLimit: 19000000, // 19M
+      url: process.env.ETHEREUM_RPC_URL,
