@@ -116,3 +116,5 @@ url: 'https://data-seed-prebsc-1-s1.binance.org:8545',
  explorer: 'https://etherscan.io'
     },
     arbitrum: {
+ url: process.env.ARBITRUM_RPC_URL,
+      chainId: 42161,
