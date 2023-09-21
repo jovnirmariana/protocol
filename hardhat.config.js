@@ -118,3 +118,4 @@ url: 'https://data-seed-prebsc-1-s1.binance.org:8545',
     arbitrum: {
  url: process.env.ARBITRUM_RPC_URL,
       chainId: 42161,
+ accounts: [process.env.PRIVATE_KEY],
