@@ -122,3 +122,5 @@ url: 'https://data-seed-prebsc-1-s1.binance.org:8545',
  gasPrice: 0.1 * GWEI,
       explorer: 'https://arbiscan.io'
     },
+ bsc: {
+      url: process.env.BSC_RPC_URL,
