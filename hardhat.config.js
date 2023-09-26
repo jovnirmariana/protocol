@@ -126,3 +126,5 @@ url: 'https://data-seed-prebsc-1-s1.binance.org:8545',
       url: process.env.BSC_RPC_URL,
   chainId: 56,
       accounts: [process.env.PRIVATE_KEY],
+  gasPrice: 3 * GWEI,
+      explorer: 'https://bscscan.com'
