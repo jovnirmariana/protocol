@@ -132,3 +132,5 @@ url: 'https://data-seed-prebsc-1-s1.binance.org:8545',
     basegoerli: {
       url: 'https://goerli.base.org',
       chainId: 84531,
+ urls: {
+          apiURL: 'https://api-goerli.basescan.org/api',
