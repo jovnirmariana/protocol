@@ -29,3 +29,5 @@ networks: {
       url: 'https://goerli.base.org',
  chainId: 84531,
       accounts: [process.env.PRIVATE_KEY],
+  gasPrice: 1 * GWEI,
+      explorer: 'https://goerli.basescan.org'
