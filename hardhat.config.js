@@ -43,3 +43,5 @@ networks: {
       url: 'https://data-seed-prebsc-1-s1.binance.org:8545',
  chainId: 97,
       accounts: [process.env.PRIVATE_KEY],
+ gasPrice: 1 * GWEI,
+      explorer: 'https://goerli.basescan.org'
