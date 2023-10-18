@@ -52,3 +52,6 @@ networks: {
       accounts: [process.env.PRIVATE_KEY],
 gasPrice: 1 * GWEI,
       explorer: 'https://goerli.basescan.org'
+ },
+    fuji: {
+      url: 'https://ava-testnet.public.blastapi.io/ext/bc/C/rpc',
