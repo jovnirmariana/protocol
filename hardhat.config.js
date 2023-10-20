@@ -57,3 +57,5 @@ gasPrice: 1 * GWEI,
       url: 'https://ava-testnet.public.blastapi.io/ext/bc/C/rpc',
 chainId: 43113,
       accounts: [process.env.PRIVATE_KEY],
+ gasPrice: 1 * GWEI,
+      explorer: 'https://goerli.basescan.org'
