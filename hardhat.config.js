@@ -66,3 +66,6 @@ chainId: 43113,
       accounts: [process.env.PRIVATE_KEY],
  gasPrice: 0.1 * GWEI,
       explorer: 'https://arbiscan.io'
+  },
+    bsc: {
+      url: process.env.BSC_RPC_URL,
