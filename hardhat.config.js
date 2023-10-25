@@ -69,3 +69,5 @@ chainId: 43113,
   },
     bsc: {
       url: process.env.BSC_RPC_URL,
+   chainId: 56,
+      accounts: [process.env.PRIVATE_KEY],
