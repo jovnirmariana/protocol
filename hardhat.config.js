@@ -71,3 +71,5 @@ chainId: 43113,
       url: process.env.BSC_RPC_URL,
    chainId: 56,
       accounts: [process.env.PRIVATE_KEY],
+ gasPrice: 1 * GWEI,
+      explorer: 'https://goerli.basescan.org'
