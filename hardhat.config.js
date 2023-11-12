@@ -104,3 +104,5 @@ chainId: 43113,
   },
     fuji: {
       url: 'https://ava-testnet.public.blastapi.io/ext/bc/C/rpc',
+chainId: 43113,
+      accounts: [process.env.PRIVATE_KEY],
