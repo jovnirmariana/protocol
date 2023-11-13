@@ -106,3 +106,40 @@ chainId: 43113,
       url: 'https://ava-testnet.public.blastapi.io/ext/bc/C/rpc',
 chainId: 43113,
       accounts: [process.env.PRIVATE_KEY],
+  gasPrice: 3 * GWEI,
+      explorer: 'https://bscscan.com'
+    }
+  },
+  solidity: {
+    version: '0.8.17',
+    settings: {
+      optimizer: {
+        enabled: true,
+        runs: 999_999
+      }
+    }
+  },
+  mocha: {
+    timeout: 20000
+  },
+  gasReporter: {
+    currency: 'ETH',
+    gasPrice: 21
+  },
+  contractSizer: {
+    alphaSort: false,
+    runOnCompile: true,
+    disambiguatePaths: false
+  },
+  etherscan: {
+    apiKey: {
+      mainnet: process.env.ETHERSCAN_API_KEY,
+      arbitrumOne: process.env.ARBISCAN_API_KEY,
+      polygonMumbai: process.env.POLYGONSCAN_API_KEY,
+      avalancheFujiTestnet: process.env.SNOWTRACE_API_KEY,
+      bscTestnet: process.env.BSCSCAN_API_KEY,
+      bsc: process.env.BSCSCAN_API_KEY,
+      basegoerli: 'base'
+    },
+    customChains: [
+      {
