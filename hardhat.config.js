@@ -143,3 +143,7 @@ chainId: 43113,
     },
     customChains: [
       {
+    network: 'basegoerli',
+        chainId: 84531,
+        urls: {
+          apiURL: 'https://api-goerli.basescan.org/api',
