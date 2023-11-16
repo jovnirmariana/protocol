@@ -148,3 +148,9 @@ chainId: 43113,
         urls: {
           apiURL: 'https://api-goerli.basescan.org/api',
    browserURL: 'https://goerli.basescan.org'
+ }
+      }
+    ]
+  },
+  paths: {
+    tests: './test',
