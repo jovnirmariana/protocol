@@ -155,3 +155,4 @@ chainId: 43113,
   paths: {
     tests: './test',
  sources: './contracts',
+    cache: './cache_hardhat',
