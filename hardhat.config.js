@@ -156,3 +156,4 @@ chainId: 43113,
     tests: './test',
  sources: './contracts',
     cache: './cache_hardhat',
+  artifacts: './artifacts'
