@@ -157,3 +157,7 @@ chainId: 43113,
  sources: './contracts',
     cache: './cache_hardhat',
   artifacts: './artifacts'
+ }
+}
+
+module.exports = config
