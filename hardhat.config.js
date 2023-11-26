@@ -12,3 +12,5 @@ const GWEI = 1000000000
  */
 const config = {
   defaultNetwork: 'hardhat',
+  networks: {
+    hardhat: {
