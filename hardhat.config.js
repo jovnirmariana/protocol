@@ -19,3 +19,5 @@ const config = {
     },
     local: {
       // npx hardhat node --port 7547 --fork https://bsc-dataseed.binance.org
+ chainId: 31337,
+      url: 'http://localhost:7547',
