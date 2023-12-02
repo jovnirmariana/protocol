@@ -26,3 +26,5 @@ const config = {
  explorer: 'https://bscscan.com'
     },
     basegoerli: {
+  url: 'https://goerli.base.org',
+      chainId: 84531,
